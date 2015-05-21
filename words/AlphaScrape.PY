@@ -6,7 +6,7 @@ import re
 chars = ['N','S','A']
 
 for char in chars:
-    inf = 'c:/Users/mnadolsky/Desktop/' + char + '.txt'
+    inf = 'c:/Users/Michael/Desktop/' + char + '.txt'
     f = open(inf,'w')
 
     url = 'http://www.crosswordsolver.org/' + char + '-words'
